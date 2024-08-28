@@ -1,0 +1,74 @@
+/* App.css */
+body {
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+.dashboard-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.form-card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.form-control-lg {
+  font-size: 1.25rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.chart-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.chart-col {
+  margin: 0.5rem;
+}
+
+.chart-card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.total-sales-card {
+  height: 100%;
+}
+
+.total-sales {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.chart-img {
+  width: 100%;
+  height: auto;
+}
+
+.long-chart-card {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .chart-row {
+    flex-direction: column;
+  }
+}
